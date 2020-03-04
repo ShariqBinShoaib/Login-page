@@ -117,7 +117,7 @@ html {
   outline: none;
 }
 
-.form-container label {
+.labels {
   display: inline-block;
   font-size: 2rem;
   margin: 1rem 0 0 1rem;

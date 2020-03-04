@@ -1,9 +1,9 @@
-var primaryContainer = document.getElementById("primary-container");
-var formContainer = document.getElementById("form-container");
-var signupContainer = document.getElementById("signup-container");
-var signinContainer = document.getElementById("signin-container");
-var signinNote = document.getElementById("signin-note");
-var signupNote = document.getElementById("signup-note");
+let primaryContainer = document.getElementById("primary-container");
+let formContainer = document.getElementById("form-container");
+let signupContainer = document.getElementById("signup-container");
+let signinContainer = document.getElementById("signin-container");
+let signinNote = document.getElementById("signin-note");
+let signupNote = document.getElementById("signup-note");
 
 function changePosition() {
     primaryContainer.classList.toggle("primary-container-toggle");
