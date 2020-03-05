@@ -13,6 +13,7 @@ html {
 .container {
   display: flex;
   flex-direction: column;
+  position: fixed;
   height: 100%;
   width: 100vw;
   background: url("login-background.jpg");
@@ -29,7 +30,7 @@ html {
 }
 
 .primary-container-toggle {
-  transform: translateY(300%);
+  transform: translateY(400%);
   transition: transform 2s;
 }
 
@@ -49,9 +50,9 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center;
-  text-shadow: 0.1rem 0.1rem 0.4rem black;
+  text-shadow: 0.1rem 0.1rem 0.4rem rgb(10, 40, 75);
   width: 80%;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .form-container {
@@ -72,9 +73,16 @@ html {
 }
 
 .form-container-toggle {
-  transform: translateY(-33.33%);
+  transform: translateY(-25%);
   border-radius: 0 0 2rem 2rem;
   transition: transform 2s, border-radius 2s;
+}
+
+.signup-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
 }
 
 .signin-note,
@@ -90,7 +98,8 @@ html {
 
 .signup-note-toggle,
 .signup-container-toggle {
-  display: block;
+  display: flex;
+  flex-direction: column;
   animation: fadeIn 3s;
 }
 
