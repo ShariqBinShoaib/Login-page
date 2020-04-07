@@ -1,3 +1,3 @@
 # Login-page
 
-https://shariqbinshoaib.github.io/Login-page/
+https://shariqbinshoaib.github.io/login-page/
